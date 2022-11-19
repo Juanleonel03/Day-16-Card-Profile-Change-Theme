@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Lato', sans-serif;
+  background: #252525;
+}
+
+img{
+  width: 80px;
+  border-radius: 50%;
+  border: 5px solid white;
+  position: absolute;
+  top: 60px;
+  left: 105px;
+  background: #252525;
+}
+
+main{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section article{
+  background: #fff;
+  width: 300px;
+  height: 350px;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.backg{
+  width: 100%;
+  height: 100px;
+  background: #14c5c5;
+  transition: .3s;
+}
+.img{
+  width: 100%;
+  height: 50px;
+}
+
+.details{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.details .profile{
+  text-align: center;
+}
+.details .profile h1{
+  color: #14c5c5;
+  transition: .3s;
+}
+.details .followers-group,
+.details .buttons{
+  display: flex;
+  margin: 20px ;
+  justify-content: space-between;
+  text-align: center;
+  transition: .3s;
+}
+.details .followers-group p{
+  color: #14c5c5;
+}
+.details .buttons button{
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  background: #14c5c5;
+  color: #fff;
+  cursor: pointer;
+  transition: .3s;
+}
+.details .buttons button:nth-child(2){
+  border: 2px solid #14c5c5;
+  background: none;
+  color: #14c5c5;
+}
+
+.colors{
+  width: 100%;
+  height: 40px;
+  background: #fff;
+  border-radius:10px ;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 12px;
+}
+
+.colors span{
+  width: 20px;
+  height: 20px;
+  background: #14c5c5;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid #60606027;
+  transition: .3s;
+}
+.colors span:nth-child(2){
+  background:rgb(222, 80, 80) ;
+}
+.colors span:nth-child(3){
+  background:rgb(237, 156, 24) ;
+}
+.colors span:nth-child(4){
+  background:rgb(63, 63, 220) ;
+}
+.colors span:nth-child(5){
+  background: rgb(14, 134, 14);
+}
+.colors span:nth-child(6){
+  background:violet ;
+}
